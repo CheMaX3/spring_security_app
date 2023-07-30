@@ -22,7 +22,6 @@ public class AuthProviderImpl implements AuthenticationProvider {
         this.personDetailsService = personDetailsService;
     }
 
-
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
